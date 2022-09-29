@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 10px;
+}
+
+div.main{
+    width: 400px;
+    margin: 100px auto 0px auto;
+}
+
+div.pass{
+    background-color: rgba(0, 0, 0, 0.404);
+    width: 100%;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.3);
+    color: rgb(168, 252, 153);
+}
+
+div.fail{
+    background-color: rgba(0, 0, 0, 0.404);
+    width: 100%;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.3);
+    color: rgb(235, 107, 107);
+}
+
+h1{
+    text-align: justify;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    font-family: sans-serif;
+    color: rgb(127, 237, 249);
+}
+
+mark { 
+    background-color: inherit;
+    color: rgb(237, 235, 235);
+  }
+
+
+  .animated-box {
+    border-radius:11px 0;
+    color:yellow;
+    font-size:21px;
+    line-height:21px;
+    font-weight:bold;
+    text-align:center;
+    
+    -webkit-animation:fontbulger 2s infinite;
+    -moz-animation:fontbulger 2s infinite;
+    -o-animation:fontbulger 2s infinite;
+    animation:fontbulger 2s infinite;
+ }
+ 
+ @-webkit-keyframes fontbulger  {
+    0%, 100% {
+       font-size:16px;
+    }
+    
+    50% {
+       font-size:21px;
+    }
+ 
+ }
+ 
+ @-moz-keyframes fontbulger  {
+    0%, 100% {
+       font-size:16px;
+    }
+    
+    50% {
+       font-size:21px;
+    }
+ 
+ }
+ 
+ @-o-keyframes fontbulger  {
+    0%, 100% {
+       font-size:16px;
+    }
+    
+    50% {
+       font-size:21px;
+    }
+ 
+ }
+ 
+ @keyframes fontbulger  {
+    0%, 100% {
+       font-size:16px;
+    }
+    
+    50% {
+       font-size:21px;
+    }
+ 
+ }
